@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web</title>
+
+    <style>
+        .titulo{
+            text-align: center;
+        }
+
+        header{
+            background-color: brown;
+            color: white;
+        }
+        main{
+            background: chocolate;
+            text-align: center;
+            margin: auto;
+        }
+        footer{
+            background: cornflowerblue;
+        }
+        .foto_producto{
+            width: 200px;
+        }
+
+        .contenedor{
+            display: flex;
+        }
+
+        @media (max-width: 600px){
+            .contenedor{
+                flex-direction: column;
+            }
+        }
+
+        .productos{
+            padding: 20px 20px;
+        }
+        .producto2{
+            margin-top: -80px;
+            background-color: cyan;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="" alt="" srcset="">
+        </div>
+        <div>
+            <h1 class="titulo">
+                Esta es mi tienda
+            </h1>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="producto1 productos">
+                <h2>
+                    Producto 1
+                </h2>
+                <img src="img/023-certificate.png" alt="" class="foto_producto">
+            </div>
+        
+            <div class="producto2 productos">
+                <h2>
+                    Producto 2
+                </h2>
+                <img src="img/012-clipboard.png" alt="" class="foto_producto">
+            </div>
+        
+            <div class="producto3 productos">
+                <h2>
+                    Producto 3
+                </h2>
+                <img src="img/008-rating.png" alt="" class="foto_producto">
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div>
+            logo
+        </div>
+        <div>
+            redes sociales
+        </div>
+
+    </footer>
+
+</body>
+</html>
